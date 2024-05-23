@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+
+}
+body {
+    /* display: flex; */
+    background-color: rgb(192, 246, 255);
+    height: 500vh;
+}
+#myBody {
+    background-color: red;
+    margin-left: 10px;
+    width: 300px; 
+    text-align: justify; 
+    padding: 10px; 
+    border-radius: 8px;
+    font-size: xx-small;
+    position: relative;
+}
+.thingsToDo {
+    color:white;
+    font-weight: 600;
+}
+.TopLossWeight {
+    width: 100%; 
+    text-align: justify; 
+    background-color: black; 
+    color: white; 
+    border-radius: 8px;
+    font-size: xx-small;
+    margin-bottom: 10px;
+    position: absolute;
+    background-color: black;
+    color: #f1f1f1;
+    bottom: -300px;
+    right: -330px;
+    z-index: 11;
+    
+}
+
+.lowerWeightLoss {
+    padding: 10px;
+    background-color: blueviolet;
+    
+}
+
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+}
+
+p i strong a {
+    color: white;
+}
+/* span a {
+    color: white;
+} */
+
+
+a {
+    color: black;
+}
+
+/* p a {
+    color: red;
+}
+
+span a {
+    color: pink;
+} */
+
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.imgBox {
+   width: 200px;
+    bottom:25px;
+    margin-bottom: 2rem;
+}
+
+img {
+    width:100%
+}
+
+/* THIS IS MY FORM DESIGN */
+form {
+    margin:auto;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+    gap: 20px;
+    border: 1px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form div {
+    line-height: 2;
+    padding-right: 15px;
+}
+
+form div label {
+    margin-right: 10px;
+}
+
+form div input {
+    width: 100%;
+    line-height: 2;
+    padding: 5px;
+    /* border: none; */
+    /* border-radius: 6px; */
+    /* border-inline-start-color: blue; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* SERVICE PAGE STYLING STARTS HERE*/
+
+.serviceHeading {
+    font-size: xx-large;
+    color: blue;
+}
+
+.mySection {
+    border:3px #f1f1f1 solid ;
+    margin-left: 10%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.boxes {
+    width: 250px;
+    height: 100px;
+    background-color: cadetblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+table {
+    margin-top: 50px;
+    padding-top: 10px;
+    /* margin: auto; */
+}
+table tr:nth-child(even) {
+    background: rgb(138, 138, 190);
+    color:white;
+}
+
+table tr:nth-child(odd) {
+    
+    color:white;
+}
+
+table tr td {
+    padding: 25px;
+}
+
+table tr:nth-child(1)> td:nth-child(1) {
+    background-color: black;
+    text-align: center;
+}
+
+
+.floatMe {
+    position: absolute;
+}
+
+.myCaptionInABorder {
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin: auto;
+    width: 200px;
+}
+
+.food {
+    background-color: lemonchiffon;
+    color: black;
+}
+
+.days {
+    background-color: green;
+}
+
+.total {
+    background: rgb(195, 199, 201);
+}
