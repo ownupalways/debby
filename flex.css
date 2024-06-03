@@ -1,0 +1,20 @@
+.container {
+    width: 80%;
+    background: black;
+    margin: auto;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    gap:10px;
+    /* flex-wrap:wrap; */
+    flex-direction:row-reverse;
+    flex
+}
+
+.flex-container > article {
+    background: white;
+    width:400px;
+    padding: 2rem;
+}

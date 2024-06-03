@@ -6,6 +6,8 @@ body {
     /* display: flex; */
     background-color: rgb(192, 246, 255);
     height: 500vh;
+    /* background-image: url(place.jpg);
+    background-repeat: no-repeat; */
 }
 #myBody {
     background-color: red;
@@ -180,9 +182,9 @@ table tr:nth-child(1)> td:nth-child(1) {
 }
 
 
-.floatMe {
+/* .floatMe {
     position: absolute;
-}
+} */
 
 .myCaptionInABorder {
     background-color: black;
@@ -204,3 +206,8 @@ table tr:nth-child(1)> td:nth-child(1) {
 .total {
     background: rgb(195, 199, 201);
 }
+
+/* section {
+    background-image: url(place.jpg);
+    background-repeat: no-repeat;
+} */
